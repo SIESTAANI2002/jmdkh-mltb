@@ -297,7 +297,7 @@ class GoogleDriveHelper:
         # File body description
         file_metadata = {
             'name': file_name,
-            'description': f'Uploaded by {self.__listener.message.from_user.id}',
+            'description': f'Uploaded by @Ani_Animesh',
             'mimeType': mime_type,
         }
         if dest_id is not None:
